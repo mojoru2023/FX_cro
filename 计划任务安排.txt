@@ -1,4 +1,16 @@
 
 
 0 19 15 * *  /usr/local/bin/python3.6 /root/FX_cron.py
- 0,59 0,23  * * 1-5   /usr/local/bin/python3.6 /root/FX_daily.py
+*/40 *   * * 1-5   /usr/local/bin/python3.6 /root/FX_daily.py
+
+centos 7 
+
+
+crontab -e
+
+
+这样重启才有效
+
+systemctl start crond.service
+
+systemctl restart crond.service
