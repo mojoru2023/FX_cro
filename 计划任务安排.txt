@@ -1,4 +1,4 @@
 
 
 0 19 15 * *  /usr/local/bin/python3.6 /root/FX_cron.py
-0,60 * * * 1-5   /usr/local/bin/python3.6 /root/FX_daily.py
+ 0,59 0,23  * * 1-5   /usr/local/bin/python3.6 /root/FX_daily.py
