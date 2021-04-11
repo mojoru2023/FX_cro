@@ -21,7 +21,7 @@ engine_FX = create_engine('mysql+pymysql://root:123456@localhost:3306/FXM')
 
 
 
-sql_FX = 'select LastTime,USDJPY,EURJPY,AUDJPY,GBPJPY,NZDJPY,CADJPY,CHFJPY,ZARJPY,CNHJPY,EURUSD,GBPUSD,AUDUSD from FX_mon  ; '
+sql_FX = 'select id,USDJPY,EURJPY,AUDJPY,GBPJPY,NZDJPY,CADJPY,CHFJPY,ZARJPY,CNHJPY,EURUSD,GBPUSD,AUDUSD,LastTime from FX_mon  ; '
 
 ln = os.getcwd()
 
