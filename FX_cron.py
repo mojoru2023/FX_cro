@@ -77,7 +77,7 @@ def sendmail():
 
 if __name__ == '__main__':
     savedt()
-    sendmail()
+  #  sendmail()
 
 # 0 19 3 * *  /usr/local/bin/python3.6 /root/cron_Nas_Mons.py
 # 每个月的1号的19点钟运行xxx.sh
